@@ -1,0 +1,203 @@
+{
+  "common": {
+    "product_name": "Saga Reader",
+    "product_slogan": "당신의 AI 기반 씽크탱크 어시스턴트",
+    "product_tip": "지능형 독서 여정을 시작하세요"
+  },
+  "main": {
+    "menu": {
+      "create_feeds_package": "추가",
+      "settings": "설정"
+    },
+    "section_frequently_used": {
+      "label": "자주 사용",
+      "menu": {
+        "today": "오늘",
+        "this_week": "이번 주",
+        "favorites": "즐겨찾기",
+        "unread": "읽지 않음"
+      }
+    },
+    "feeds": {
+      "menu": {
+        "actions": {
+          "create": "새로 만들기",
+          "edit": "편집",
+          "delete": "삭제",
+          "delete_prompt": "구독 패키지 {name}을(를) 삭제하시겠습니까? 이 구독 패키지에 속한 {length}개의 구독 항목이 모두 삭제됩니다.",
+          "delete_dialog_title": "구독 패키지 삭제"
+        }
+      },
+      "create_or_edit": {
+        "field_feeds_package_name": "구독 그룹 이름",
+        "field_feeds_package_placeholder": "구독 그룹의 이름을 입력하세요. 8자 이내를 권장합니다.",
+        "tip_modify_failured": "수정에 실패했습니다. 입력 항목이 올바른지 확인해 주세요. {e}",
+        "tip_footer": "참고: 구독 그룹 이름은 고유해야 합니다."
+      }
+    },
+    "section_subscriptions": {
+      "label": "구독"
+    },
+    "feed": {
+      "menu": {
+        "actions": {
+          "edit": "편집",
+          "delete": "삭제",
+          "delete_prompt": "구독 {name}을(를) 삭제하시겠습니까?",
+          "delete_dialog_title": "구독 삭제"
+        }
+      },
+      "create_or_edit": {
+        "field_feed_name": "구독 이름",
+        "field_feed_placeholder": "구독의 이름을 입력하세요. 8자 이내를 권장합니다.",
+        "field_fetcher_type_name": "정보 소스",
+        "field_fetcher_type_selection_1": "바튼 엔진(글로벌 인텔리전스 탐지 엔진)",
+        "field_fetcher_type_selection_2": "RSS 구독",
+        "field_keywords": "키워드",
+        "field_rss_url": "RSS 주소",
+        "tip_unknown_fetcher": "알 수 없는 Fetcher: {formFetcherId}",
+        "field_keywords_placeholder": "정보 키워드를 입력하세요. 검색 엔진을 사용하듯 여러 키워드는 공백으로 구분할 수 있습니다.",
+        "field_rss_url_placeholder": "RSS 주소를 입력하세요.",
+        "tip_modify_failured": "수정에 실패했습니다. 입력 항목이 올바른지 확인해 주세요. {e}",
+        "tip_footer": "참고: 구독 이름은 기존 구독과 겹치지 않아야 합니다."
+      }
+    },
+    "search": {
+      "results_label": "검색 결과",
+      "placeholder_input": "검색"
+    },
+    "articles": {
+      "tip_click_to_load_more": "클릭하여 더 불러오기",
+      "tip_loading": "불러오는 중",
+      "error_retry": "클릭하여 재시도",
+      "tip_empty_try_again": "콘텐츠가 없습니다. 클릭하여 업데이트하세요",
+      "tip_empty": "콘텐츠가 없습니다"
+    },
+    "footer": {
+      "tasks": {
+        "label": "백그라운드 작업",
+        "idle": "현재 실행 중인 작업이 없습니다.",
+        "status_summary_part1": "처리 중",
+        "status_summary_part2": "건",
+        "status_ready": "준비 완료",
+        "status_error": "오류가 발생했습니다. 클릭하여 자세히 보기"
+      }
+    }
+  },
+  "reader": {
+    "tab_optimized_content": "훑어보기",
+    "tab_melted_content": "요약",
+    "tab_melted_original": "원문",
+    "tip_link_copyed": "링크가 복사되었습니다",
+    "blank_tip_0": "구독 콘텐츠를 선택해주세요",
+    "blank_tip_1": "1. 구독 주제를 추가하세요.",
+    "blank_tip_2": "2. 구독 콘텐츠 목록을 새로고침하세요.",
+    "blank_tip_3": "3. 구독 콘텐츠의 제목을 클릭하세요."
+  },
+  "feed": {
+    "source": "출처",
+    "from": "제공"
+  },
+  "aisprite": {
+    "label": "AI 독서 동반자",
+    "chat_me": "나",
+    "tip_wait_llm_response": "Copilot이 생각을 마칠 때까지 기다려주세요.",
+    "tip_no_input": "내용을 입력해주세요",
+    "tip_error_llm_error": "오류가 발생했습니다",
+    "tip_placeholder_please_input": "Copilot에게 궁금한 점을 물어보세요",
+    "default_questions": {
+      "title": "추천 질문",
+      "subtitle": "아래 질문을 클릭하여 대화를 시작하세요",
+      "questions": {
+        "summarize": "이 글의 핵심 내용을 요약해 주세요",
+        "key_points": "이 글의 핵심 정보는 무엇인가요?",
+        "explain_concept": "글에 등장하는 중요한 개념을 설명해 주세요",
+        "practical_application": "이 내용을 실제로 어떻게 적용할 수 있나요?",
+        "related_topics": "더 깊이 탐구해볼 만한 관련 주제는 무엇인가요?",
+        "critical_thinking": "이 글의 관점에 대해 다른 시각이 있다면 무엇인가요?"
+      }
+    }
+  },
+  "settings": {
+    "label": "설정",
+    "loading": "불러오는 중...",
+    "section_llm_appearance": {
+      "label": "화면",
+      "theme": {
+        "label": "다크 모드",
+        "description": "켜면 다크 나이트를, 끄면 화이트 문라이트를 사용합니다."
+      }
+    },
+    "section_llm_provider": {
+      "label": "AI 설정",
+      "tip": "AI 제공자를 선택하세요",
+      "provider_ollama": "Ollama(로컬 배포)",
+      "provider_ollama_tip": "Ollama는 기기에 로컬로 배포할 수 있어 하드웨어에 맞는 개인 모델과 뛰어난 데이터 프라이버시 및 보안을 제공합니다. 먼저 Ollama를 설치해야 합니다.",
+      "provider_ollama_sentence_1": "여기를 클릭하여 다운로드",
+      "provider_ollama_sentence_2": "Ollama 서비스 URL",
+      "provider_ollama_sentence_3": "모델 이름",
+      "provider_ollama_sentence_4": "모델 이름을 입력하세요. 예: \"qwen2.5:3b\"",
+      "provider_ollama_sentence_5": "기본값은 `http://localhost:11434` 입니다.",
+      "provider_glm": "GLM Flash(클라우드)",
+      "provider_glm_sentence_1": "GLM의 클라우드 AI를 등록하여 사용할 수 있습니다. 무료 GLM Flash 모델 추론 서비스를 제공합니다.",
+      "provider_glm_sentence_2": "여기를 클릭하여 신청",
+      "provider_glm_sentence_3": "API 키 입력",
+      "provider_openai": "커스텀 AI（OpenAI 호환）",
+      "provider_openai_sentence_1": "대부분의 대규모 모델 서비스는 OpenAI와 호환되므로 설정 정보만 입력하면 됩니다.",
+      "provider_openai_sentence_2": "대규모 모델 서비스 URL 입력",
+      "provider_openai_sentence_3": "제공업체로부터 발급받은 API 키 입력",
+      "provider_openai_sentence_4": "모델 이름 입력",
+      "provider_barton": "바튼 엔진(로컬 통합)",
+      "provider_barton_sentence_1": "(베타) 자체 개발한 바튼 엔진은 추론 속도가 빠르고 메모리 사용량이 매우 적으며, 뛰어난 데이터 프라이버시와 보안을 제공합니다",
+      "provider_barton_sentence_2": "모델 파일 경로",
+      "provider_barton_sentence_3": "모델 파일 경로 입력"
+    },
+    "section_llm_instruct": {
+      "label": "AI 동작 환경설정",
+      "lang": {
+        "label": "자동 번역 대상 언어",
+        "description": "콘텐츠 언어가 다를 경우 자동으로 번역됩니다.",
+        "as_system": "시스템 언어를 따름",
+        "english": "영어",
+        "chinese": "중국어"
+      }
+    },
+    "section_app_behavior": {
+      "label": "앱 동작",
+      "option_autostart": {
+        "label": "시스템 부팅 시 자동 실행",
+        "description": "이 옵션을 활성화하면 시스템이 시작될 때 구독 콘텐츠 업데이트가 자동으로 실행됩니다. 비활성화하면 구독 콘텐츠가 자동으로 업데이트되도록 프로그램을 수동으로 실행해야 합니다."
+      },
+      "option_scheduled_fetch": {
+        "label": "더 빠른 백그라운드 업데이트",
+        "description": "이 옵션을 활성화하면 구독 콘텐츠가 더 빠르게 업데이트됩니다."
+      },
+      "option_notification": {
+        "label": "콘텐츠 업데이트 알림",
+        "description": "이 옵션을 활성화하면 새 콘텐츠가 발견될 때 시스템 알림을 보냅니다."
+      }
+    },
+    "section_users_support": {
+      "label": "제품 지원",
+      "visit_home": "웹사이트",
+      "feedback": "피드백",
+      "blogs": "블로그",
+      "changelogs": "변경 내역"
+    },
+    "section_version": {
+      "label": "정보",
+      "ver_app": "앱 버전",
+      "ver_engine": "엔진 버전",
+      "ver_system": "시스템 정보"
+    }
+  },
+  "common_dialog": {
+    "save": "저장",
+    "cancel": "취소"
+  },
+  "about": {
+    "ver_app": "앱 버전",
+    "ver_engine": "엔진 버전",
+    "visit_home": "웹사이트 방문"
+  }
+}
